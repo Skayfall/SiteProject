@@ -1,0 +1,13 @@
+<li align="center">
+    {% for vid in rec %}
+    <a href="{{ url_for('videos', filename='css/style.css') }}">{{file_name}}</a>
+        <div class="vidos">
+
+            {% for link in vid[file_name] %}
+                <div class="left-mega col-xs-6">
+
+                <a class="linkin park" href="{{ url_for('videos', filename='css/style.css') }}">{{link}}</a>
+                            </div>
+                            {% endfor %}
+                            {% endfor %}
+<li/>
